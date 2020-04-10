@@ -12,7 +12,7 @@ udp:27031
 udp:27036
 ```
 
-<b>USAGE<b/>
+<b>USAGE</b>
 
 Add this as startup script to your instance metedata:
 
@@ -26,7 +26,7 @@ linuxuser: "Your local username for the VM"
 ```
 ![alt text](https://raw.githubusercontent.com/komurlu/LinuxCloudGaming/master/images/metadata.JPG)
 
-<b>Disks:<b/> Attach an additional disk when creating your instance for installing your games. You can select SSD/Standart persistent disk or local SSD scratch disk. (Local SSD will be terminated if you delete your instance, your game download will be lost) This disk will be mounted under /mnt/game.
+<b>Disks:</b> Attach an additional disk when creating your instance for installing your games. You can select SSD/Standart persistent disk or local SSD scratch disk. (Local SSD will be terminated if you delete your instance, your game download will be lost) This disk will be mounted under /mnt/game.
 
 On Steam GUI, you should add a Library folder, under /mnt/game
 
