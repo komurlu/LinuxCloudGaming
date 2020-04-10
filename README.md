@@ -109,7 +109,7 @@ Instance template is as follows:
           "key": "vncpass"
         },
         {
-          "value": youruser",
+          "value": "youruser",
           "key": "linuxuser"
         },
         {
