@@ -103,6 +103,10 @@ then
 	EOF
 	)> /etc/systemd/system/cloudgaming.service
 	
+	mkdir /etc/systemd/system/custom.target.wants
+	ln -s /etc/systemd/system/cloudgaming.service /etc/systemd/system/custom.target.wants/cloudgaming.service
+	systemctl set-default custom.target
+	
 	touch /etc/notfirstboot
 fi
 #END notfirstboot
