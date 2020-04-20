@@ -12,7 +12,7 @@ NOVNC_VERSION=1.0.0-beta
 
 if [ ! -f "/etc/notfirstboot" ]
 then
-	wget -O /usr/bin/cloudgamingstart.sh https://raw.githubusercontent.com/komurlu/LinuxCloudGaming/master/setupInstance.sh
+	wget -O /usr/bin/cloudgamingstart.sh https://raw.githubusercontent.com/komurlu/LinuxCloudGaming/testing/setupInstance.sh
 	chmod +x /usr/bin/cloudgamingstart.sh
 	
 	dpkg --add-architecture i386
